@@ -26,7 +26,7 @@ public class Display_Linkedlist {
 
         Node temp = a;
         for (int i = 1; temp != null; i++) {
-            System.out.print(temp.data + "->");
+            System.out.print(temp.data + " ");
             temp = temp.next;
         }
 
